@@ -1,0 +1,30 @@
+.main-shit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.text-shit {
+  width: 22rem;
+}
+
+table {
+  max-width: 95%;
+}
+
+th {
+  background-color: blue;
+}
+
+img {
+  width: 26rem
+}
+
+@media(max-width: 720px){
+  table, table td, table tr, table th {
+    display: block;
+  }
+  thead {
+    display: none;
+  }
+}
